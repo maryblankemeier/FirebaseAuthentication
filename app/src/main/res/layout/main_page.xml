@@ -19,34 +19,28 @@
             android:orientation="vertical">
 
             <EditText
-                android:id="@+id/email"
+                android:hint="@string/mrno"
+                android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Email"
-                android:inputType="textEmailAddress"
-                android:maxLines="1"/>
-
-            <EditText
-                android:id="@+id/password"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Password"
-                android:imeActionLabel="@string/action_sign_in_short"
-                android:imeOptions="actionUnspecified"
-                android:inputType="textPassword"
-                android:maxLines="1"
-                />
+                android:ems="10"
+                android:id="@+id/add_new_food"
+                android:inputType="textPassword" />
 
             <Button
-                android:id="@+id/email_sign_in_button"
-                style="?android:textAppearanceSmall"
+                android:text="Upload Image"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:text="Sign In"
-                android:textColor="#ffffff"
-                android:textStyle="bold"/>
+                android:id="@+id/btnUploadImage"/>
+
+            <Button
+                android:text="Add to database"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnAddToDatabase"/>
 
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
+
+

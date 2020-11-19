@@ -3,4 +3,5 @@
     <string name="prompt_email">your_prompt_email</string>
     <string name="prompt_password">your_prompt_password</string>
     <string name="action_sign_in_short">your_action_sign_in_short</string>
+    <string name="mrno">MRNO</string>
 </resources>
